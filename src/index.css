@@ -5,4 +5,18 @@
 /* Basic style overrides */
 body {
   overflow-x: hidden;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Overrides for the background on the home page */
+.home-background {
+  position: relative;
+}
+
+/* Set the z-index for the main layout elements to ensure they appear above the background */
+#root {
+  position: relative;
+  z-index: 10;
 }
