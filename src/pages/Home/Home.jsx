@@ -289,9 +289,9 @@ const Home = () => {
       <div className="container mx-auto px-4 py-16">
         {/* Hero Section with Problem Statement */}
         {/* blur background */}
-        <div className="max-w-4xl mx-auto mb-16 backdrop-filter backdrop-blur-sm p-2">
+        <div className="max-w-4xl mx-auto mb-8 backdrop-filter backdrop-blur-sm p-2">
           <h1 className="text-5xl font-bold mb-6 text-center text-gray-800">
-            Reactors designed in the real world, <i>for the real world</i>
+          Reactors designed for the real world, <i>in the real world</i>
           </h1>
           <p className="text-xl text-center text-gray-700 mb-12">
             Simulations are expensive to run and validate, and fail to accurately model complex flow reactions. 
@@ -299,20 +299,20 @@ const Home = () => {
           </p>
           
           {/* Call to Action with Skeuomorphic Buttons */}
-          <div className="flex justify-center gap-6">
+          {/* <div className="flex justify-center gap-6">
             <button className="btn-skeuomorphic-dark">
               Book a Demo (Coming Soon)
             </button>
             <button className="btn-skeuomorphic-light">
               Learn More (Coming Soon)
             </button>
-          </div>
+          </div> */}
         </div>
         
         {/* Key Benefits in Split Layout */}
-        <div className="max-w-6xl mx-auto mb-16">
-          <div className="flex flex-col md:flex-row" style={{ boxShadow: '0 8px 20px rgba(0,0,0,0.12)', borderRadius: '12px' }}>
-            <div className="w-full md:w-1/3 p-8 skeuomorphic-dark-box text-white relative z-10">
+        {/* <div className="max-w-6xl mx-auto mb-16">
+          <div className="flex flex-col md:flex-row">
+            <div className="w-full md:w-1/3 p-8  text-white bg-gray-600 rounded-l-xl">
               <h2 className="text-3xl font-bold mb-6 relative z-10">Why Our Approach Works</h2>
               <p className="mb-6 relative z-10">
                 We bypass the limitations of computational simulations by directly testing in the physical world.
@@ -322,7 +322,7 @@ const Home = () => {
               </p>
             </div>
             
-            <div className="w-full md:w-2/3 p-8 skeuomorphic-light-box relative z-10">
+            <div className="w-full md:w-2/3 p-8 bg-gray-100 rounded-r-xl">
               <div className="grid md:grid-cols-2 gap-8 relative z-10">
                 <div>
                   <h3 className="text-xl font-semibold mb-3">Improved Efficiency</h3>
@@ -346,7 +346,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         
       </div>
     </div>
